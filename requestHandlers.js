@@ -1,5 +1,5 @@
-function update() {
-  codeUpdate.update();
+function update(response) {
+  codeUpdate.execute_command(response);
 }
 
 
